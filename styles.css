@@ -12,6 +12,18 @@ body {
     justify-content: space-between;
     padding: 0px 40px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+#header2 {
+    margin-bottom: 125px;
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    width: 100%;
 }
 
 img {
@@ -41,6 +53,7 @@ img {
 }
 
 .yt {
+
     margin-top: 40px;
     display: flex;
     justify-content: center;
