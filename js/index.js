@@ -26,3 +26,7 @@ INSTRUCTIONS:
 
 // Once you have read the above messages, you can delete all comments. 
 "use strict";
+
+const scroll = document.getElementById('video');
+
+scroll.scrollIntoView();
