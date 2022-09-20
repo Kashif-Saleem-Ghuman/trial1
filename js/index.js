@@ -28,5 +28,6 @@ INSTRUCTIONS:
 "use strict";
 
 const scroll = document.getElementById('video');
-
-scroll.scrollIntoView();
+const call = document.getElementById('callVideo')
+let scrolled = scroll.scrollIntoView();
+document.addEventListener("call", scrolled);
